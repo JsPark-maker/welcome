@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\user\source\InvaderProject\Invader\Invader\</FILEPATH>
+      <FILENAME>MovementMessage.h</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'PlayerMessage::cQueue' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>PlayerMessage::{ctor}</FUNCTION>
+    <DECORATED>??0PlayerMessage@@AAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>PlayerMessage::cQueue</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\user\source\InvaderProject\Invader\Invader\</FILEPATH>
+      <FILENAME>CSceneTitle.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>'GetTickCount64'을(를) 'GetTickCount' 대신 사용하십시오. 이유: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>CSceneTitle::Action</FUNCTION>
+    <DECORATED>?Action@CSceneTitle@@EAEXXZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\user\source\InvaderProject\Invader\Invader\</FILEPATH>
+      <FILENAME>CSceneTitle.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>'GetTickCount64'을(를) 'GetTickCount' 대신 사용하십시오. 이유: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>CSceneTitle::Action</FUNCTION>
+    <DECORATED>?Action@CSceneTitle@@EAEXXZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\user\source\InvaderProject\Invader\Invader\</FILEPATH>
+      <FILENAME>CSceneTitle.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>'GetTickCount64'을(를) 'GetTickCount' 대신 사용하십시오. 이유: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>CSceneTitle::Action</FUNCTION>
+    <DECORATED>?Action@CSceneTitle@@EAEXXZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\user\source\InvaderProject\Invader\Invader\</FILEPATH>
+      <FILENAME>CSceneTitle.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>'GetTickCount64'을(를) 'GetTickCount' 대신 사용하십시오. 이유: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>CSceneTitle::Action</FUNCTION>
+    <DECORATED>?Action@CSceneTitle@@EAEXXZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
